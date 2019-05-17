@@ -354,8 +354,13 @@ ul {
 
 }
 
+.urlinput {
+    width: 150px;
+}
+
 .desc-blurb {
     padding: 15px;
+
 
 }
 
@@ -412,6 +417,9 @@ ul {
 
 .description {
     border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+
 }
 
 /* ------------------------------------------- Footer CSS ------------------------------------------- */
