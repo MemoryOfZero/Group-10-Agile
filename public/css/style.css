@@ -213,7 +213,9 @@ input[type=password]:focus {
 
 .forum-username {
     float: left;
-    margin-right: 10px
+    margin-right: 10px;
+    border-radius: 5px;
+    border: solid lightgray 1px;
 }
 
 .register_add > p,

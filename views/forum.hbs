@@ -31,7 +31,7 @@
 
         <ul class="message_list">
             {{#each message}}
-                    <a href="/user/{{username}}"><img class="forum-user profileimg" src="{{{profileImage username}}}" height="60" width="60" alt="{{username}}'s Picture"></a>
+                    <a href="/user/{{username}}"><img class="forum-username" src="{{{profileImage username}}}" height="60" width="60" alt="{{username}}'s Picture"></a>
                 <li><a href="/thread/{{_id}}">{{title}}</a><p class="category"><a href="/forum/{{category}}">[{{category}}]</a></p>     
                     <p class="replies">Replies: {{replies}}</p>
                     <p class="poster">Posted by: <a href=/user/{{username}}>{{username}}</a> on {{date}}</p>
