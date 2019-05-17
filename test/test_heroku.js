@@ -113,10 +113,10 @@ describe('Edit reply', function() {
                 return agent
                     .post('/edit_reply')
                     .type('form')
-                    .send({reply_id: '5cdde948c82a5800173ea133', reply_username: 'tester', edit_reply_textarea: "edit successful! Test number: " + random_number})
+                    .send({reply_id: '5cdf14467c37dd0017dc1300', reply_username: 'tester', edit_reply_textarea: "edit successful! Test number: " + random_number})
                     .then(function(res) {
                         return agent
-                            .get('/thread/5cdde936c82a5800173ea132')
+                            .get('/thread/5cdf143f7c37dd0017dc12ff')
                             .then(function(res) {
                                 var str = res.text;
                                 var patt = new RegExp(random_number)
