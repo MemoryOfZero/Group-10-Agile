@@ -194,7 +194,8 @@ app.get("/user/:username/threads", async (request, response) => {
 
     response.render("user_threads.hbs", {
         title: `Threads by ${request.params.username}`,
-        thread: user_threads
+        thread: user_threads,
+        username: `${request.params.username}`
     });
 })
 module.exports = app;

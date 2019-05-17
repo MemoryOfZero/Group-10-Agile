@@ -7,7 +7,10 @@
 {{> menu}}
 <div class="main-container">
     <br>
+    <div id="message_container">
     <ul class="message_list">
+        <h1>{{username}}'s Threads</h1>
+        <br>
         {{#each thread}}
             <li>
                 <a href="/thread/{{_id}}">{{title}}</a><p style="font-size: 16px; text-align: right; margin-top: -24px"><a href="/forum/{{category}}">[{{category}}]</a></p>     
@@ -17,6 +20,7 @@
             </li>
         {{/each}}
     </ul>
+    </div>
 {{> footer}}
 </div>
 </body>
