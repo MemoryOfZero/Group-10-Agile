@@ -8,7 +8,7 @@
     <div class="main-container"><br>
         <div id="thread_container">
             <div id="op_container">
-                <a href="/user/{{poster}}"><img style="float: left; margin-right: 15px" src="{{image}}" height="100" width="100" alt="{{username}}'s Picture"></a>
+                <a href="/user/{{poster}}"><img class="profileimg" style="float: left; margin-right: 15px" src="{{image}}" height="100" width="100" alt="{{username}}'s Picture"></a>
                 <h1>{{heading}}</h1>
                 <div class="edittext">By: <a href=/user/{{poster}}><b>{{poster}}</b></a></div>
                 <p class="opmessage">{{op_message}}</p>
@@ -47,7 +47,7 @@
 
                 <ul>
                 {{#each reply}}
-                    <a href="/user/{{username}}"><img style="float: left; margin: 5px 15px" src={{{profileImage username}}} height="60" width="60" alt="{{username}}'s Picture"></a>
+                    <a href="/user/{{username}}"><img class="profileimg" style="float: left; margin: 5px 15px" src={{{profileImage username}}} height="60" width="60" alt="{{username}}'s Picture"></a>
                     <p class="edittext"><a href=/user/{{username}}><b>{{username}}</b></a> replied on {{date}} {{edited_date}}<p>
                     <li>
                         <div class="replyspace">

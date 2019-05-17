@@ -49,6 +49,10 @@ input {
     text-decoration: none;
 }
 
+#headerpfp {
+    border-radius: 5px;
+}
+
 /* ------------------------------------------- LOGIN PAGE ------------------------------------------- */
 .username {
     display: block;
@@ -308,17 +312,70 @@ ul {
     margin-top: -15px;
 }
 
-/* ------------------------------------------- PROFILE PAGE ------------------------------------------- */
-.profile{
-    text-align: center;
-}
-.updates{
-    text-align: center;
+.profileimg {
+    border-radius: 5px;
+    border: solid lightgray 1px;
 }
 
-button{
+/* ------------------------------------------- PROFILE PAGE ------------------------------------------- */
+#profile-container {
+    width: 83%;
+    margin: auto;
+    padding: 16px;
+}
+
+.profile{
+    padding: 15px;
+    float: left;
+
+
+}
+
+#profile-head {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#profile-img {
+    border-radius: 5px;
+    border: solid lightgray 1px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.profile-body {
+    border-radius: 5px;
+    border: solid lightgray 1px;
+    padding: 5px;
+    height: auto;
+
+}
+
+.desc-blurb {
+    padding: 15px;
+
+}
+
+.updates{
+
+}
+
+#update_img_button {
+    margin-left: 14px;
+}
+
+#update_desc_button {
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+
+
+}
+
+#update_img_button, #update_desc_button{
     position: relative;
-    display: inline-block;
+    display: inline;
     padding: 5px 10px;
     background: #008edb;
     border-radius: 5px;
@@ -333,12 +390,26 @@ button{
 
 }
 
+#update_img_button:hover, #update_desc_button:hover {
+    background: #00a5ff;
+    color: white;
+    text-decoration: none;
+
+}
+
 #update_desc_form {
-    display: none
+    display: none;
+    float: right;
+
 }
 
 #update_img_form {
-    display: none
+    display: none;
+    float: left;
+}
+
+.description {
+    border-radius: 5px;
 }
 
 /* ------------------------------------------- Footer CSS ------------------------------------------- */
