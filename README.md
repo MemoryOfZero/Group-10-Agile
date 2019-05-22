@@ -1,3 +1,5 @@
 # Group-10-Agile
-# Brody was here
-# Wilfred | Commit test
+
+A message forum written in Node.js using express. Website hosted on Heroku & mlab.
+
+Integrated with Travis-CI.
